@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 nav {
     display: flex;
 }
@@ -19,6 +20,19 @@ nav a{
     text-decoration: none;
     
     
+=======
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px;
+    margin: auto;
+}
+
+
+article{
+>>>>>>> 64ac7430d257d72b2277bc536536905ecc8e77a0
 }
 
 body{
@@ -28,7 +42,10 @@ body{
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     margin: auto;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 64ac7430d257d72b2277bc536536905ecc8e77a0
 }
 
 h3 {
@@ -38,8 +55,25 @@ h3 {
 a {
     color: hotpink;
 }
+<<<<<<< HEAD
     
 
 h1{
     font-family: 'Abril Fatface', cursive;
 }
+=======
+
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+
+
+
+
+
+
+
+>>>>>>> 64ac7430d257d72b2277bc536536905ecc8e77a0
