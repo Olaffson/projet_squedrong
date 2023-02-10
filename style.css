@@ -27,6 +27,17 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
+}
+
+h3 {
+    color: hotpink;
+}
+
+a {
+    color: hotpink;
+}
+=======
     font-family: 'Montserrat', sans-serif;
     margin: auto;
 }
