@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 nav {
     display: flex;
 }
@@ -20,3 +21,25 @@ nav a{
     
     
 }
+=======
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+
+
+
+
+
+
+>>>>>>> c449c86dc5d85c95b79dd0f9968b63dd0eead0c6
