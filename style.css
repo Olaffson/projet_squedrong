@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+}
+
+nav ul {
+    
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+    gap: 15px;
+    width: 95%;
+    max-width: 1100px;
+    align-self: center;
+    list-style: none;
+}
+
+nav a{
+    color: dimgray;
+    text-decoration: none;
+    
+    
+}
