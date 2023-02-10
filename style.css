@@ -3,12 +3,9 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 15px;
     margin: auto;
-}
-
-
-article{
+    width: 800px;
+    align-content: space-around;
 }
 
 body{
@@ -31,6 +28,11 @@ a {
 
 h1{
     font-family: 'Abril Fatface', cursive;
+}
+
+article{
+    padding: 10px;
+    margin: 10px;
 }
 
 
