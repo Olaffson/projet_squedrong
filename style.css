@@ -1,16 +1,53 @@
-nav {
-    background-color: aqua;
+body{
+    margin: auto;
+    max-width: 900px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header > nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.second img {
+    height: 150px;
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 44px;;
+    color: #e1466fe4;
+    margin-bottom: 10px;
+}
+h2{
+    margin-top: 10px;
+    font-size: 44px;
+    color: rgb(53, 53, 53);
+}
+div > p {
+    font-size: smaller;
+    color: rgba(45, 45, 45, 0.771);
+    margin-bottom: 20px;
+}
+
 nav ul {
-    background-color: azure;
     display: flex;
-    gap: 15px;
+    gap: 20px;
     align-self: center;
     list-style: none;
+    font-size:12px;
+}
+
+nav ul li{
+    overflow: hidden;
+    transition: 0.25s ease;
+}
+
+nav ul li:hover{
+    transform: scale(1.15);
+    text-decoration: underline;
+    
 }
 
 nav a{
@@ -18,54 +55,54 @@ nav a{
     text-decoration: none;
 }
 
-.container {
+article {
     display: flex;
-}
-
-.container img{
-    height: 400px
-    
+    justify-content: space-between;
+    gap: 70px;
 }
 
 
-
-
-
-
-
-/*
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+.first nav  {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
     gap: 15px;
-    margin: auto;
 }
 
+.first nav a {
 
-
-
-body{
+    padding: 10px;
+    color: rgb(255, 255, 255);
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
-    margin: auto;
-    width: 95%;
-    max-width: 1000px;
-
+    justify-content: space-evenly;
+    flex: 1 1 0px;
+    overflow: hidden;
+    transition: 0.25s ease;
 }
-
-h3 {
-    color: hotpink;
+.first nav a:hover{
+    transform: scale(1.05);
 }
-
-a {
-    color: hotpink;
+nav a span{
+    font-size:x-small;
 }
+.lien-1{
+    background-color:#00ACEE;
+}
+.lien-2{
+    background-color: #0E76A8;
+}
+.lien-3{
+    background-color: black;
+}
+.first nav img{
+    height: 20px;
     
-
-h1{
-    font-family: 'Abril Fatface', cursive;
-}*/
+}
+article .illustration img{
+    height: 310px;
+}
+.illustration{
+    display: flex;
+    align-self: flex-start;
+}
