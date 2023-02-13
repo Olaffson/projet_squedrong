@@ -1,16 +1,14 @@
-
 nav {
+    background-color: aqua;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav ul {
-    
+    background-color: azure;
     display: flex;
-    justify-content: space-between;
-    justify-content: flex-end;
     gap: 15px;
-    width: 95%;
-    max-width: 1100px;
     align-self: center;
     list-style: none;
 }
@@ -18,11 +16,25 @@ nav ul {
 nav a{
     color: dimgray;
     text-decoration: none;
+}
+
+.container {
+    display: flex;
+}
+
+.container img{
+    height: 400px
     
-    
+}
 
 
-main{
+
+
+
+
+
+/*
+main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -40,6 +52,9 @@ body{
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     margin: auto;
+    width: 95%;
+    max-width: 1000px;
+
 }
 
 h3 {
@@ -53,4 +68,4 @@ a {
 
 h1{
     font-family: 'Abril Fatface', cursive;
-}
+}*/
