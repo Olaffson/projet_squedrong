@@ -71,3 +71,41 @@ article{
 
 
 
+
+
+
+
+
+
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 500px);
+    width: 1000px;
+}
+
+.message{
+    grid-row: span 3;
+}
+
+
+legend{
+    color: hotpink;
+    padding: 5px 30px;
+    text-align: center;
+}
+
+fieldset, legend{
+    border: 1px solid rgb(10, 0, 116);
+    border-radius: 5px;
+}
