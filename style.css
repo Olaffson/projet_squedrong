@@ -44,9 +44,8 @@ main{
 }
 
 
-h3 {
-    color: hotpink;
-}
+
+
 
 a {
     color: hotpink;
@@ -60,7 +59,7 @@ h3, a, .DetailsH1 {
     
 
 h1{
-    font-family: 'Abril Fatface', cursive;
+    
     color: hotpink;
 }
 
@@ -69,6 +68,13 @@ article{
     margin: 10px;
     max-width: 500px;
 }
+.DetailsH2, .DetailsH3 {
+    color: darkblue;
+}
+
+
+
+
 
 
 
