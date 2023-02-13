@@ -108,7 +108,7 @@ fieldset{
 }
 
 .message{
-    grid-row: span 3;
+    grid-area: 1/2/5/3;
 }
 
 
