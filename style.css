@@ -1,10 +1,55 @@
 body{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     margin: auto;
+    max-width: 1100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+div ul {
+    list-style: none;
+    max-width: 600px;
+}
+
+nav a{
+    color: dimgray;
+    text-decoration: none;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+}
+    
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: auto;
+    align-items: center;
+}
+
+
+h3 {
+    color: hotpink;
+}
+
+a {
+    color: hotpink;
 }
 
 
@@ -16,9 +61,14 @@ h3, a, .DetailsH1 {
 
 h1{
     font-family: 'Abril Fatface', cursive;
+    color: hotpink;
 }
 
-
+article{
+    padding: 10px;
+    margin: 10px;
+    max-width: 500px;
+}
 
 
 
