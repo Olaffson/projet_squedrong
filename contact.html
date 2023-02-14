@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squedrong contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navContact">
+            <a href="index.html"><img src="images/logo.png" alt="logo du site"></a>
+            <ul>
+                <li><a href="./index.html">BLOG</a></li>
+                <li><a href="cv">CV</a></li>
+                <li><a href="a_propos">A PROPOS</a></li>
+                <li><a href="./contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <form method="get">
+
+            <div class="contact">
+
+                <fieldset>
+
+                    <legend>Informations Personnelles</legend>
+
+                    <!-- firstmane -->
+                    <div class="prenom">
+                        <label for="firstmane">Prénom* :</label>
+                        <input type="text" placeholder="prénom" name="firstname" id="firstmane" autofocus required>
+                    </div>
+
+                    <!-- lastname -->
+                    <div class="nom">
+                        <label for="lastname">Nom* :</label>
+                        <input type="text" placeholder="nom" name="lastname" id="lastname" required>
+                    </div>
+
+                    <!-- age -->
+                    <div class="age">
+                        <label for="age">Age* :</label>
+                        <input type="date" name="age" id="age" max="2015-02-16" title="vous devez avoir 18 ans" required>
+                    </div>
+
+                    <!-- email -->
+                    <div class="mail">
+                        <label for="email">Adresse mail* :</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+
+                    <!-- message -->
+                    <div class="message">
+                        <label for="message">Message* :</label>
+                        <textarea name="message" id="message" rows="5" required>
+                    </div>
+
+                </fieldset>
+
+                
+            </div>
+
+            <label>
+                <button class="bouton" type="submit" name="submit">Envoyer ma demande</button>
+            </label>
+
+        </form>
+
+    </main>
+
+</body>
+
+</html>

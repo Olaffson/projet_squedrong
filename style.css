@@ -1,6 +1,6 @@
 body{
     margin: auto;
-    max-width: 900px;
+    max-width: 1000px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -13,7 +13,6 @@ header > nav {
 .second img {
     height: 150px;
 }
-
 h1{
     font-family: 'Abril Fatface', cursive;
     font-size: 44px;;
@@ -45,7 +44,7 @@ nav ul li{
 }
 
 nav ul li:hover{
-    transform: scale(1.15);
+    transform: scale(0.9);
     text-decoration: underline;
     
 }
@@ -87,10 +86,10 @@ nav a span{
     font-size:x-small;
 }
 .lien-1{
-    background-color:#00ACEE;
+    background-color:#03a9f4;
 }
 .lien-2{
-    background-color: #0E76A8;
+    background-color: #0077b5;
 }
 .lien-3{
     background-color: black;
