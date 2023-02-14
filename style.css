@@ -1,6 +1,6 @@
 .index-html{
     margin: auto;
-    max-width: 900px;
+    max-width: 850px;
     font-family: 'Montserrat', sans-serif;
 }
 header > .second {
@@ -16,9 +16,11 @@ h1{
     font-size: 44px;;
     color: #e1466fe4;
     margin-bottom: 10px;
+    font-weight: 100;
 }
 #zzz .first h2{
     margin-top: 10px;
+    font-weight: 490;
     font-size: 44px;
     color: rgb(53, 53, 53);
 }
@@ -60,7 +62,7 @@ h1{
 
 
 .first nav  {
-    height: 50px;
+    height: 45px;
     display: flex;
     justify-content: space-between;
     gap: 15px;
@@ -80,7 +82,7 @@ h1{
     transform: scale(1.05);
 }
 #zzz span{
-    font-size:x-small;
+    font-size:xx-small;
 }
 .lien-1{
     background-color:#03a9f4;
@@ -96,9 +98,79 @@ h1{
     
 }
 #zzz .illustration img{
-    height: 320px;
+    height: 300px;
 }
 .illustration{
     display: flex;
     align-self: flex-start;
+}
+
+
+
+
+
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-bottom: 400px;
+    margin-top: 130px;
+
+}
+
+
+.fourth img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+.fourth span {
+    font-size: 9px;
+    font-weight:600;
+    color: rgba(50, 50, 50, 0.855);
+}
+
+.fourth p{
+    font-size: 10px;
+    color: rgba(59, 59, 59, 0.824);
+}
+
+
+.fourth a{
+    text-decoration: none;
+    color: #e1466fe4 ;
+}
+
+.fourth h3{
+    font-weight:600;
+    font-size: 16px;
+    color: #e1466fe4;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+
+
+.fourth a {
+    font-size:11px;
+    position: relative;
+}
+
+
+.fourth a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 1px;
+    width: 74%;
+    background-color: #e1466fe4;
+    transition: width 0.3s ease-in-out; 
+}
+
+.fourth a:hover::after {
+    width: 100%;
 }
