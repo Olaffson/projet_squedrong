@@ -174,3 +174,47 @@ main{
 .fourth a:hover::after {
     width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css page CV */
+.centrage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.erreur{
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 30px;
+}
