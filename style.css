@@ -108,22 +108,6 @@ h1{
     align-self: flex-start;
 }
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 main{
     display: grid;
     grid-template-columns: 1fr 1fr;
