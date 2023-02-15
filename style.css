@@ -3,14 +3,17 @@
     max-width: 850px;
     font-family: 'Montserrat', sans-serif;
 }
+
 header > .second {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .second img {
     height: 150px;
 }
+
 h1{
     font-family: 'Abril Fatface', cursive;
     font-size: 44px;;
