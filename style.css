@@ -10,9 +10,14 @@ header > .second {
     align-items: center;
 }
 
+
 .second img {
     height: 150px;
     margin-left: -34px;
+}
+.second img:hover{
+    filter: hue-rotate(800deg);
+    
 }
 
 h1{
@@ -49,10 +54,18 @@ h1{
 
 .second ul li:hover{
     transform: scale(0.9);
-    text-decoration: underline;
-    
+    text-decoration: underline;  
 }
-
+.second .activ:hover{
+    transform: scale(0.9);
+    text-decoration: underline;
+}
+.second .activ{
+    color: #3f23a2;
+    overflow: hidden;
+    transition: 0.25s ease;
+    font-weight: bolder;
+}
 .second a{
     color: dimgray;
     text-decoration: none;
@@ -224,9 +237,28 @@ main{
     overflow: hidden;
     transition: 0.25s ease;
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: #3f23a2;
 }
+.index-html .erreur{
+    color: #3f23a2;
+    font-size: 80px;
+}
+
 .index-html .centrage a:hover{
     transform: scale(1.1);
     text-decoration: underline;
+}
 
+
+
+.second .activ-second:hover{
+    transform: scale(0.9);
+    text-decoration: underline;
+}
+.second .activ-second{
+    color: #3f23a2;
+    overflow: hidden;
+    transition: 0.25s ease;
+    font-weight: bolder;
 }

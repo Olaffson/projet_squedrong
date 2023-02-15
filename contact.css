@@ -1,3 +1,18 @@
+.second .activ:hover{
+    transform: scale(0.9);
+    text-decoration: underline;
+}
+.second .activ{
+    color: #3f23a2;
+    overflow: hidden;
+    transition: 0.25s ease;
+    font-weight: bolder;
+}
+
+
+
+
+
 body {
     background-image: url();
     font-family: Montserrat, "sans-serif";

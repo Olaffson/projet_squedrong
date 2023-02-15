@@ -1,3 +1,19 @@
+
+.second .activ:hover{
+    transform: scale(0.9);
+    text-decoration: underline;
+
+}
+.second .activ{
+    color: #3f23a2;
+    overflow: hidden;
+    transition: 0.25s ease;
+    font-weight: bolder;
+}
+
+
+
+
 header > .second {
     display: flex;
     justify-content: space-between;
@@ -47,13 +63,17 @@ h1{
 .second a{
     color: dimgray;
     text-decoration: none;
+    
+}
+.second .logo{
+    margin-left: -34px;
 }
 
 #zzz {
     display: flex;
     justify-content: space-between;
     gap: 70px;
-    width: 800px;
+    width: 850px;
 }
 
 
@@ -108,8 +128,8 @@ h1{
 }
 
 body{
-    max-width: 850px;
     margin: auto;
+    max-width: 850px;
     font-family: 'Montserrat', sans-serif;
 }
 
