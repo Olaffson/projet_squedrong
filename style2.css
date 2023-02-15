@@ -1,0 +1,153 @@
+.index-html{
+    margin: auto;
+    max-width: 700px;
+    font-family: 'Montserrat', sans-serif;
+}
+header > .second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second img {
+    height: 150px;
+    margin-left: -34px;
+}
+
+.second ul {
+    display: flex;
+    gap: 20px;
+    align-self: center;
+    list-style: none;
+    font-size:12px;
+}
+
+.second ul li{
+    overflow: hidden;
+    transition: 0.25s ease;
+}
+
+.second ul li:hover{
+    transform: scale(0.9);
+    text-decoration: underline;
+    
+}
+.second a{
+    color: dimgray;
+    text-decoration: none;
+}
+
+
+.premier img{
+    width: 100%;
+    margin-top: 60px;
+}
+
+
+.second > h1{
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+    color: #e1466fe4;
+    font-weight: 400;
+}
+.second p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    
+}
+
+#deux h2{
+    color: rgb(0, 0, 198);
+    font-size: 19px;
+}
+
+#trois h3{
+    color: rgb(0, 0, 198);
+    font-size: 14px;
+
+
+}
+
+h1, h2, h3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+p{
+    color: rgba(45, 45, 45, 0.771);
+    font-weight: 400;
+    display: flex;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+.first > p {
+    font-size: 10px;
+    color: black;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    display: flex;
+    text-align: justify;
+}
+#zzz {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+
+
+
+.first nav  {
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.first nav a {
+    
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1 1 0px;
+    overflow: hidden;
+    transition: 0.25s ease;
+}
+.first nav a:hover{
+    transform: scale(1.05);
+}
+#zzz .first a span{
+    font-size:7px;
+}
+.lien-1{
+    background-color:#03a9f4;
+}
+.lien-2{
+    background-color: #0077b5;
+}
+.lien-3{
+    background-color: black;
+}
+.first nav img{
+    height: 20px;
+    
+}
+
+#zzz .illustration img{
+    height: 220px;
+}
+
+h3{
+    font-size: 26px;;
+    color: #e1466fe4;
+    margin-bottom: 10px;
+    font-weight: 600;
+}

@@ -10,6 +10,7 @@ header > .second {
 }
 .second img {
     height: 150px;
+    margin-left: -34px;
 }
 h1{
     font-family: 'Abril Fatface', cursive;
@@ -99,10 +100,6 @@ h1{
 }
 #zzz .illustration img{
     height: 300px;
-}
-.illustration{
-    display: flex;
-    align-self: flex-start;
 }
 
 
