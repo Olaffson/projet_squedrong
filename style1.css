@@ -1,0 +1,155 @@
+body {
+    margin: auto;
+    max-width: 850px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header>.second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second img {
+    height: 150px;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25px;
+    color: #bd254de4;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+h2 {
+    font-size: 22px;
+    color:rgb(3, 3, 183);
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+h3 {
+    font-size: medium;
+    color:rgb(81, 18, 141);
+    margin-bottom: 10px;
+
+}
+h4 {
+    font-size: x-large;
+    color: #bd254de4;
+
+}
+
+#zzz .first h2 {
+    margin-top: 10px;
+    font-weight: 490;
+    font-size: 44px;
+    color: rgb(53, 53, 53);
+}
+
+.first>p {
+    font-size: smaller;
+    color: rgba(45, 45, 45, 0.771);
+    margin-bottom: 20px;
+}
+
+.second ul {
+    display: flex;
+    gap: 20px;
+    align-self: center;
+    list-style: none;
+    font-size: 12px;
+}
+
+.second ul li {
+    overflow: hidden;
+    transition: 0.25s ease;
+}
+
+.second ul li:hover {
+    transform: scale(0.9);
+    text-decoration: underline;
+
+}
+
+.second a {
+    color: dimgray;
+    text-decoration: none;
+}
+
+#zzz {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+
+.first nav {
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.first nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1 1 0px;
+    overflow: hidden;
+    transition: 0.25s ease;
+}
+
+.first nav a:hover {
+    transform: scale(1.05);
+}
+
+#zzz span {
+    font-size: xx-small;
+}
+
+.lien-1 {
+    background-color: #03a9f4;
+}
+
+.lien-2 {
+    background-color: #0077b5;
+}
+
+.lien-3 {
+    background-color: black;
+}
+
+.first nav img {
+    height: 20px;
+
+}
+
+#zzz .illustration img {
+    height: 200px;
+}
+
+.illustration {
+    display: flex;
+    align-self: flex-start;
+}
+.BlogPost {    
+    margin-top: 30px;
+    text-align: justify;
+    
+}
+.image {
+    width: 100%;
+}
+p {
+    font-size: small;
+}
+footer {
+    margin-top: 100px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+

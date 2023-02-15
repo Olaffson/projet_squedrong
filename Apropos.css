@@ -3,18 +3,14 @@
     max-width: 850px;
     font-family: 'Montserrat', sans-serif;
 }
-
 header > .second {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .second img {
     height: 150px;
-    margin-left: -34px;
 }
-
 h1{
     font-family: 'Abril Fatface', cursive;
     font-size: 44px;;
@@ -62,6 +58,7 @@ h1{
     display: flex;
     justify-content: space-between;
     gap: 70px;
+    width: 800px;
 }
 
 
@@ -102,132 +99,20 @@ h1{
     
 }
 #zzz .illustration img{
+    height: 50px;
+}
+.illustration{
     height: 300px;
 }
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    margin-bottom: 400px;
-    margin-top: 130px;
-
-}
-
-
-.fourth img {
-    width: 100%;
-    margin-top: 30px;
-}
-
-
-.fourth span {
-    font-size: 9px;
-    font-weight:600;
-    color: rgba(50, 50, 50, 0.855);
-}
-
-.fourth p{
-    font-size: 10px;
-    color: rgba(59, 59, 59, 0.824);
-}
-
-
-.fourth a{
-    text-decoration: none;
-    color: #e1466fe4 ;
-}
-
-.fourth h3{
-    font-weight:600;
-    font-size: 16px;
-    color: #e1466fe4;
-    margin-top: 5px;
-    margin-bottom: 2px;
-}
-
-
-
-.fourth a {
-    font-size:11px;
-    position: relative;
-}
-
-
-.fourth a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-    height: 1px;
-    width: 74%;
-    background-color: #e1466fe4;
-    transition: width 0.3s ease-in-out; 
-}
-
-.fourth a:hover::after {
-    width: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* css page CV */
-.centrage{
+.MainOfAPropos{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    justify-content: center;
+    height: 600px;
 }
 
-.erreur{
-    text-transform: uppercase;
-    font-size: 43px;
-    font-weight: 600;
-    font-family: 'Abril Fatface', cursive;
-    color: #00129b;
-    margin: 30px;
+body{
+    width: 850px;
 }
+
