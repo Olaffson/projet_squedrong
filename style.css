@@ -1,12 +1,8 @@
 .index-html{
     margin: auto;
     max-width: 850px;
-.index-html{
-    margin: auto;
-    max-width: 850px;
     font-family: 'Montserrat', sans-serif;
 }
-header > .second {
 header > .second {
     display: flex;
     justify-content: space-between;
@@ -108,22 +104,6 @@ h1{
     display: flex;
     align-self: flex-start;
 }
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 main{
     display: grid;
