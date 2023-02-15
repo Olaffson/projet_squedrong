@@ -113,3 +113,13 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+#zzz .first p{
+    font-size: 11px;
+    display: flex;
+    text-align: justify;
+}
+
+#zzz .first h2{
+    font-size: 26px;
+}
+
