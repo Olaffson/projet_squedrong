@@ -212,6 +212,21 @@ main{
     font-size: 43px;
     font-weight: 600;
     font-family: 'Abril Fatface', cursive;
-    color: #00129b;
+    color: hsl(233, 100%, 30%);
     margin: 30px;
+
+}
+
+.index-html{
+    margin-bottom: 300px;
+}
+.index-html .centrage a{
+    overflow: hidden;
+    transition: 0.25s ease;
+    text-decoration: none;
+}
+.index-html .centrage a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+
 }
