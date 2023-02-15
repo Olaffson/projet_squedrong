@@ -9,105 +9,62 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="contact.css">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
+        <nav class="second">
+            <a class="logo" href="index.html"><img src="images/logo.png" alt="logo du site"></a>
+            <ul>
+                <li><a href="./index.html">BLOG</a></li>
+                <li><a href="./CV.html">CV</a></li>
+                <li><a href="./A_propos.html">A PROPOS</a></li>
+                <li><a href="./contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+ 
     </header>
 
-    <main>
-
-        <form method="get">
-
-            <div class="centrage">
-
-                <section>
-                    <h1>
-                        Vous voulez me contacter ?
-                    </h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia atque amet eveniet cum? Tenetur praesentium quibusdam, quod at recusandae, maiores molestiae commodi doloremque omnis in libero placeat magni distinctio voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, cum commodi. Labore exercitationem magni unde non dolores, quod accusantium et dolorem assumenda amet modi dignissimos ipsam aspernatur soluta asperiores cupiditate!
-                    </p>
-                </section>
-
-                <fieldset>
-
-                    <legend>Informations Personnelles</legend>
-
-                    <!-- firstmane -->
-                    <div class="prenom">
-                        <label for="firstmane">Prénom* : </label>
-                        <input type="text" placeholder="prénom" name="firstname" id="firstmane" autofocus required>
-                    </div>
-
-                    <!-- lastname -->
-                    <div class="nom">
-                        <label for="lastname">Nom* : </label>
-                        <input type="text" placeholder="nom" name="lastname" id="lastname" required>
-                    </div>
-
-                    <!-- age -->
-                    <div class="age">
-                        <label for="age">Age* : </label>
-                        <input type="date" name="age" id="age" max="2015-02-16" title="vous devez avoir 18 ans" required>
-                    </div>
-
-                    <!-- email -->
-                    <div class="mail">
-                        <label for="email">Adresse mail* : </label>
-                        <input type="email" name="email" id="email" required>
-                    </div>
-
-                    <!-- message -->
-                    <div class="message">
-                        <label for="message">Message : </label>
-                        <textarea name="message" id="message" cols="40"></textarea>
-                    </div>
-
-                </fieldset>
-
-                <!-- <label>
-                    <button class="bouton" type="submit" name="submit">Envoyer ma demande</button>
-                </label> -->
-
-            </div>
-
-            <a href="./index.html">Envoyer ma demande</a>
-
-
-        </form>
-
-    </main>
-
-</body>
-
+    <body class ="Formulaire">
+        <div class="contactez-nous">
+            <h1>Contactez-nous</h1>
+            <p>Un problème, une question, envie de nous envoyer un message ? N’hésitez pas à utiliser ce formulaire pour
+                prendre contact avec nous !</p>
+            <form action="#" method="post">
+                <div>
+                    <label for="nom">Votre nom</label>
+                    <input type="text" id="nom" name="nom" placeholder="Martin" required>
+                </div>
+                <div>
+                    <label for="prenom">Votre Prénom</label>
+                    <input type="text" id="prenom" name="prenom" placeholder="DMARC" required>
+                </div>
+                <div>
+                    <label for="email">Votre e-mail</label>
+                    <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+                </div>
+                <div>
+                    <label for="sujet">Quel est le sujet de votre message ?</label>
+                    <select name="sujet" id="sujet" required>
+                        <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+                        <option value="probleme-compte">Problème avec mon compte</option>
+                        <option value="question-produit">Question à propos d’un produit</option>
+                        <option value="autre">Autre...</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message">Votre message</label>
+                    <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...."
+                        required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Envoyer mon message</button>
+                </div>
+            </form>
+        </div>
+    
+    </body>
+    
 </html>
