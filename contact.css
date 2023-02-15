@@ -23,6 +23,12 @@ nav {
 .contactez-nous>h1 {
     font-weight: 500;
 }
+.Formulaire{
+    margin-bottom: 300px;
+}
+.Formulaire .contactez-nous{
+    margin-top: 100px;
+}
 
 .contactez-nous>p {
     font-weight: 300;
