@@ -16,7 +16,7 @@
 
 .index-html{
     margin: auto;
-    max-width: 700px;
+    max-width: 850px;
     font-family: 'Montserrat', sans-serif;
 }
 header > .second {
@@ -107,23 +107,31 @@ p{
 
 
 
+.paragraphe p {
+    margin-top: 23px;
+    
+}
 
+.second .special{
+    margin-top: 15px;
+}
 
 
 
 
 .first > p {
-    font-size: 10px;
-    color: black;
+    font-size: 11px;
+    color: #494949;
     margin-bottom: 40px;
     margin-top: 15px;
     display: flex;
     text-align: justify;
 }
+
 #zzz {
     display: flex;
     justify-content: space-between;
-    gap: 70px;
+    gap: 120px;
     margin-top: 100px;
     margin-bottom: 300px;
 }
@@ -131,7 +139,7 @@ p{
 
 
 .first nav  {
-    height: 35px;
+    height: 40px;
     display: flex;
     justify-content: space-between;
     gap: 10px;
@@ -169,7 +177,7 @@ p{
 }
 
 #zzz .illustration img{
-    height: 220px;
+    height: 250px;
 }
 
 h3{
