@@ -29,6 +29,12 @@ header > .second {
 
 }
 
+
+.second img:hover{
+    filter: hue-rotate(800deg);
+    
+}
+
 .second ul {
     display: flex;
     gap: 20px;
