@@ -60,13 +60,15 @@ h1{
 
 .second ul li{
     overflow: hidden;
-    transition: 0.25s ease;
+    transition: 0.6s ease;
+    color: #3f23a2;
+    
 }
 
 .second ul li:hover{
     transform: scale(0.9);
     text-decoration: underline;
-    
+    color: rgb(100, 100, 100);
 }
 
 .second a{
