@@ -262,3 +262,7 @@ main{
     transition: 0.25s ease;
     font-weight: bolder;
 }
+
+.imgCV{
+    width: 260px;
+}
