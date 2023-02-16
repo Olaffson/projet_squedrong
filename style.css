@@ -262,3 +262,6 @@ main{
     transition: 0.25s ease;
     font-weight: bolder;
 }
+.index-html .centrage img{
+    width: 250px;
+}
